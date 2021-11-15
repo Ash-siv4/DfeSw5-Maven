@@ -78,9 +78,7 @@ public class Person implements FindingPerson {
 				return p;
 			}
 		}
-
 		return new Person();
-
 	}
 
 }
