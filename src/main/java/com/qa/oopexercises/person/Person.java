@@ -3,7 +3,7 @@ package com.qa.oopexercises.person;
 import java.util.ArrayList;
 
 //Abstraction - OOP 
-public class Person implements FindingPerson{
+public class Person implements FindingPerson {
 
 //	Create a Person class modelling name, age and job title variables.
 //
@@ -25,7 +25,8 @@ public class Person implements FindingPerson{
 	private int age;// 0
 	private String jobTitle;// null
 
-	// default constructor
+	// Polymorphism OOP - overloading
+	// ---default constructor
 	public Person() {
 	}
 
@@ -64,7 +65,8 @@ public class Person implements FindingPerson{
 	}
 
 	// ---toString method
-	@Override//Polymorphism
+	// Polymorphism OOP - Overriding
+	@Override
 	public String toString() {
 		return "Person: name=" + name + ", age=" + age + ", jobTitle=" + jobTitle;
 	}
