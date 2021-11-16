@@ -41,4 +41,13 @@ public class Runner {
 		System.out.println("Person found!!! - " + finding.findPerson(find, people));// PERSON B
 	}
 
+	public ArrayList<Person> list = new ArrayList<>();
+
+	public ArrayList<Person> addToList(Person x) {
+		list.add(x);
+
+		return list;
+
+	}
+
 }
